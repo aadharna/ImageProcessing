@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/Grayscale#Converting_color_to_grayscale
     
     a) Y' = 0.299 R + 0.587 G + 0.114 B <-- at the pixel level
     
-Note: At least with matplotlib, given the format how I have make the image in grayscale, when plotting the image matrix, you must tell the function to draw the result with the gray color mapping. If you don't then the computer will try to interpolate the ranges present into some color range.
+Note: At least with matplotlib, given the format how I have made the image in grayscale, when plotting the image matrix, you must tell the function to draw the result with the gray color mapping. If you don't then the computer will try to interpolate the ranges present into some color range.
 ```
 plt.imshow(imageMatrix, cmap = plt.get_cmap('gray'))
 ```
