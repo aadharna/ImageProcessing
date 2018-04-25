@@ -4,6 +4,10 @@ Functions:
 
     1) convert color image to greyscale
     2) crop an image
+    
+----
+
+### To see the functions working in action, there are some examples at the bottom of the jupyter notebook. 
 
 #### Gray Scaling an image
 
